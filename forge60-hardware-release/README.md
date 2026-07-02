@@ -1,6 +1,6 @@
 # Forge 60 Hardware Release
 
-Forge 60 is a compact high-power flashlight with a constant 60 W / 10,000 lm output mode.
+Forge 60 is a compact high-power flashlight with a constant 60 W / about 10,000 lm output mode.
 
 ## Boards
 
