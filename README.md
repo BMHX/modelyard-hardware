@@ -2,6 +2,8 @@
 
 Forge 60 is an open hardware DIY flashlight project built around a constant 60 W / 10,000 lm output mode, a high-current driver board, a 5050 LED board, active cooling, and a USB-C charge/discharge power path. It is designed as a reproducible kit: builders can manufacture the PCBs, source parts from the BOM, assemble the electronics and mechanical parts, flash the firmware, and modify the design.
 
+[Watch the demo](https://www.youtube.com/watch?v=xSCZzmICGlw) | [Buy the kit](https://modelyard.cc/products/forge-60) | [Download hardware files](#hardware-downloads)
+
 ![Forge 60 product photo](assets/images/forge60-product-1.jpg)
 
 ## Highlights
@@ -46,6 +48,18 @@ These figures are reference values from the project build. Final performance dep
 | Product | Product | Product |
 | --- | --- | --- |
 | ![Forge 60 product photo 1](assets/images/forge60-product-1.jpg) | ![Forge 60 product photo 2](assets/images/forge60-product-2.jpg) | ![Forge 60 product photo 3](assets/images/forge60-product-3.jpg) |
+
+## Demo Video
+
+Watch the Forge 60 demo on YouTube:
+
+[https://www.youtube.com/watch?v=xSCZzmICGlw](https://www.youtube.com/watch?v=xSCZzmICGlw)
+
+## Buy the Kit
+
+The open hardware files are provided for builders who want to manufacture or modify the project themselves. A ready-to-build kit is also available here:
+
+[https://modelyard.cc/products/forge-60](https://modelyard.cc/products/forge-60)
 
 ## Hardware Downloads
 
