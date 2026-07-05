@@ -1,4 +1,4 @@
-<h1 align="center">🔦 Forge 60</h1>
+<h1 align="center">Forge 60</h1>
 
 <p align="center">
   <strong>Open-hardware 60 W / 10,000 lm DIY flashlight kit with USB-C power, active cooling, and full manufacturing files.</strong>
@@ -6,88 +6,86 @@
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=xSCZzmICGlw"><img alt="Watch on YouTube" src="https://img.shields.io/badge/Watch-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a>
-  <a href="https://modelyard.cc/products/forge-60"><img alt="Buy on ModelYard" src="https://img.shields.io/badge/Buy-ModelYard-111111?style=for-the-badge"></a>
+  <a href="https://modelyard.cc/products/forge-60"><img alt="Buy on ModelYard" src="https://img.shields.io/badge/Buy%20Kit-ModelYard-111111?style=for-the-badge"></a>
   <a href="https://discord.com/invite/2pjCQccBc"><img alt="Join Discord" src="https://img.shields.io/badge/Join-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"></a>
-  <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/License-CERN--OHL--P--2.0-blue?style=for-the-badge"></a>
+  <a href="https://github.com/BMHX/modelyard-hardware/releases"><img alt="Download release" src="https://img.shields.io/badge/Download-Release-2ea44f?style=for-the-badge"></a>
 </p>
 
-Forge 60 is a reproducible open-hardware flashlight project built around a constant 60 W / 10,000 lm output mode, a high-current driver board, a 5050 LED board, active cooling, and a USB-C charge/discharge power path. Builders can manufacture the PCBs, source parts from the BOM, assemble the kit, flash the firmware, and modify the design.
-
-## 🚀 Quick Links
-
-| Action | Link |
-| --- | --- |
-| <img src="assets/icons/youtube.svg" width="18" alt="YouTube"> Watch the demo | [YouTube: Forge 60 demo](https://www.youtube.com/watch?v=xSCZzmICGlw) |
-| <img src="assets/icons/modelyard.svg" width="18" alt="ModelYard"> Buy the kit | [modelyard.cc/products/forge-60](https://modelyard.cc/products/forge-60) |
-| <img src="assets/icons/discord.svg" width="18" alt="Discord"> Join the community | [Discord invite](https://discord.com/invite/2pjCQccBc) |
-| 📦 Download release package | [GitHub Releases](https://github.com/BMHX/modelyard-hardware/releases) |
-| 🧩 Download hardware files | [Hardware Downloads](#-hardware-downloads) |
-| 🛠️ Edit source project | [EasyEDA Pro source](forge60-hardware-release/source/forge60-easyeda-pro-source.epro2) |
+<p align="center">
+  <a href="LICENSE"><img alt="License: CERN-OHL-P-2.0" src="https://img.shields.io/badge/License-CERN--OHL--P--2.0-blue.svg"></a>
+  <a href="#hardware-downloads"><img alt="Open hardware files" src="https://img.shields.io/badge/Hardware%20Files-Gerber%20%7C%20BOM%20%7C%20CPL%20%7C%20Schematic-lightgrey.svg"></a>
+  <a href="#source-project"><img alt="EasyEDA Pro source" src="https://img.shields.io/badge/Source-EasyEDA%20Pro-orange.svg"></a>
+</p>
 
 ![Forge 60 product photo](assets/images/forge60-product-1.jpg)
 
-## 📚 Contents
+Forge 60 is a reproducible open-hardware flashlight platform built around a constant 60 W / 10,000 lm output mode, a high-current driver board, a 5050 LED board, active cooling, and a USB-C charge/discharge power path. The repository includes fabrication files, assembly data, schematics, and editable EasyEDA Pro source files so builders can manufacture, inspect, modify, and assemble the project.
 
-- [Highlights](#-highlights)
-- [Demo Video](#-demo-video)
-- [Buy the Kit](#-buy-the-kit)
-- [Community](#-community)
-- [Performance](#-performance)
-- [Specifications](#-specifications)
-- [Hardware Downloads](#-hardware-downloads)
-- [PCB and Schematic Preview](#-pcb-and-schematic-preview)
-- [BOM Overview](#-bom-overview)
-- [Required Tools](#-required-tools)
-- [Firmware Flashing](#-firmware-flashing)
-- [Assembly Notes](#-assembly-notes)
-- [Safety Notes](#-safety-notes)
-- [Repository Layout](#-repository-layout)
-- [License](#-license)
+## At a Glance
 
-## ✨ Highlights
+| Item | Value |
+| --- | --- |
+| Output | 60 W / about 10,000 lm |
+| USB-C power | About 45 W charging / discharging |
+| Battery architecture | 2S 21700 lithium battery pack |
+| Cooling | 30 x 30 x 50 mm heatsink + 3010 fan |
+| Recommended hardware files | Mainboard v2 + 5050 LED board |
+| Mainboard thickness | 1.0 mm |
+| LED board thickness | 1.6 mm |
+| Source format | EasyEDA Pro `.epro2` |
+| License | CERN-OHL-P-2.0 |
 
-- ⚡ Constant 60 W high-output flashlight platform
-- 💡 About 10,000 lm output, depending on LED selection and thermal setup
-- 🔌 45 W USB-C charging and discharging
-- 🔋 2S 21700 battery pack architecture
-- 🌬️ Active cooling with a 30 x 30 x 50 mm heatsink and 3010 fan
-- 🧾 Complete Gerber, BOM, pick-and-place, schematic, and PCB preview files
-- 🧰 EasyEDA Pro source project included for editing and modification
-- 📜 CERN-OHL-P-2.0 permissive open hardware license
+## Important Notes
 
-## ▶️ Demo Video
+- **Recommended board:** use `mainboard-v2`. Older mainboard revisions are not recommended for new builds.
+- **PCB thickness matters:** order the mainboard at **1.0 mm** and the LED board at **1.6 mm**.
+- **KiCad is not included yet:** editable source is currently provided as an EasyEDA Pro project.
+- **High-power safety:** this project uses high-current lithium cells and a high-power LED. Validate wiring, polarity, thermal path, and firmware before sustained operation.
+- **Battery shipping:** if you ship kits with cells, use a logistics channel that supports lithium batteries.
 
-Click the preview below to watch the Forge 60 demo.
+## Quick Links
 
-[![Forge 60 demo video](https://img.youtube.com/vi/xSCZzmICGlw/maxresdefault.jpg)](https://www.youtube.com/watch?v=xSCZzmICGlw)
+| Action | Link |
+| --- | --- |
+| <img src="assets/icons/youtube.svg" width="18" alt="YouTube"> Watch demo | [YouTube video](https://www.youtube.com/watch?v=xSCZzmICGlw) |
+| <img src="assets/icons/modelyard.svg" width="18" alt="ModelYard"> Buy kit | [ModelYard Forge 60 kit](https://modelyard.cc/products/forge-60) |
+| <img src="assets/icons/discord.svg" width="18" alt="Discord"> Join community | [Discord invite](https://discord.com/invite/2pjCQccBc) |
+| Download release | [GitHub Releases](https://github.com/BMHX/modelyard-hardware/releases) |
+| Download hardware files | [Hardware Downloads](#hardware-downloads) |
+| Edit source project | [EasyEDA Pro source](forge60-hardware-release/source/forge60-easyeda-pro-source.epro2) |
 
-Direct link: [https://www.youtube.com/watch?v=xSCZzmICGlw](https://www.youtube.com/watch?v=xSCZzmICGlw)
+## Contents
 
-## 🛒 Buy the Kit
+- [Demo](#demo)
+- [Kit Availability](#kit-availability)
+- [Performance](#performance)
+- [Hardware Downloads](#hardware-downloads)
+- [Manufacturing Notes](#manufacturing-notes)
+- [Source Project](#source-project)
+- [PCB and Schematic Preview](#pcb-and-schematic-preview)
+- [BOM Overview](#bom-overview)
+- [Build Flow](#build-flow)
+- [Firmware Flashing](#firmware-flashing)
+- [Assembly Notes](#assembly-notes)
+- [Safety and Disclaimer](#safety-and-disclaimer)
+- [Repository Layout](#repository-layout)
+- [License](#license)
 
-The project is fully open for builders who want to manufacture or modify it themselves. A ready-to-build kit is also available here:
+## Demo
 
-<p>
-  <a href="https://modelyard.cc/products/forge-60">
-    <img alt="Buy Forge 60 Kit on ModelYard" src="https://img.shields.io/badge/Buy%20Forge%2060%20Kit-ModelYard-111111?style=for-the-badge">
-  </a>
-</p>
+[![Forge 60 demo video](https://img.youtube.com/vi/xSCZzmICGlw/hqdefault.jpg)](https://www.youtube.com/watch?v=xSCZzmICGlw)
+
+Watch the demo: [https://www.youtube.com/watch?v=xSCZzmICGlw](https://www.youtube.com/watch?v=xSCZzmICGlw)
+
+## Kit Availability
+
+This repository contains the open hardware files for builders who want to manufacture or modify the project themselves. A ready-to-build kit is available separately:
+
+[![Buy Forge 60 Kit on ModelYard](https://img.shields.io/badge/Buy%20Forge%2060%20Kit-ModelYard-111111?style=for-the-badge)](https://modelyard.cc/products/forge-60)
 
 Direct link: [https://modelyard.cc/products/forge-60](https://modelyard.cc/products/forge-60)
 
-## 💬 Community
-
-Join the Discord community for build discussion, support, updates, and modification ideas:
-
-<p>
-  <a href="https://discord.com/invite/2pjCQccBc">
-    <img alt="Join the Forge 60 Discord" src="https://img.shields.io/badge/Join%20the%20Forge%2060%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white">
-  </a>
-</p>
-
-Direct link: [https://discord.com/invite/2pjCQccBc](https://discord.com/invite/2pjCQccBc)
-
-## ⏱️ Performance
+## Performance
 
 | Mode | Runtime |
 | --- | --- |
@@ -95,46 +93,34 @@ Direct link: [https://discord.com/invite/2pjCQccBc](https://discord.com/invite/2
 | 30 W | About 54 minutes |
 | 3 W | About 8 hours |
 
-These figures are reference values from the project build. Final performance depends on LED bin, cells, protection board, wiring, cooling quality, firmware, and assembly.
+These are reference values from the project build. Final performance depends on LED bin, cell condition, protection board, wiring resistance, cooling quality, firmware, and assembly.
 
-## 📐 Specifications
+## Hardware Downloads
 
-| Item | Value |
-| --- | --- |
-| Project name | Forge 60 |
-| Type | High-power DIY flashlight |
-| Maximum power | 60 W |
-| Optical output | About 10,000 lm |
-| USB-C power | About 45 W charging / discharging |
-| Battery architecture | 2S 21700 lithium battery pack |
-| Recommended cells | High-drain 21700 cells, such as JP40 / 40PL / 45D class cells |
-| Mainboard thickness | 1.0 mm |
-| LED board thickness | 1.6 mm |
-| Cooling | 30 x 30 x 50 mm heatsink + 3010 fan |
-| Hardware license | CERN-OHL-P-2.0 |
-
-## 📸 Photos
-
-| Product | Product | Product |
-| --- | --- | --- |
-| ![Forge 60 product photo 1](assets/images/forge60-product-1.jpg) | ![Forge 60 product photo 2](assets/images/forge60-product-2.jpg) | ![Forge 60 product photo 3](assets/images/forge60-product-3.jpg) |
-
-## 📦 Hardware Downloads
-
-Gerber files are for PCB fabrication. BOM files are for sourcing. Pick-and-place files are for SMT assembly. The EasyEDA Pro source project is provided for editing and modification.
+Gerber files are for PCB fabrication. BOM files are for sourcing. Pick-and-place files are for SMT assembly. Schematic and PCB preview files are provided for review.
 
 | Board | Gerber | BOM | Pick and Place | Schematic | PCB Preview |
 | --- | --- | --- | --- | --- | --- |
 | Mainboard v2 | [ZIP](forge60-hardware-release/mainboard-v2/mainboard-v2-gerber.zip) | [XLSX](forge60-hardware-release/mainboard-v2/mainboard-v2-bom.xlsx) / [CSV](forge60-hardware-release/mainboard-v2/mainboard-v2-bom.csv) | [XLSX](forge60-hardware-release/mainboard-v2/mainboard-v2-pick-and-place.xlsx) / [CSV](forge60-hardware-release/mainboard-v2/mainboard-v2-pick-and-place.csv) | [PDF](forge60-hardware-release/mainboard-v2/mainboard-v2-schematic.pdf) | [PDF](forge60-hardware-release/mainboard-v2/mainboard-v2-pcb-preview.pdf) |
 | 5050 LED Board | [ZIP](forge60-hardware-release/led-board-5050/led-board-5050-gerber.zip) | [XLSX](forge60-hardware-release/led-board-5050/led-board-5050-bom.xlsx) / [CSV](forge60-hardware-release/led-board-5050/led-board-5050-bom.csv) | [XLSX](forge60-hardware-release/led-board-5050/led-board-5050-pick-and-place.xlsx) / [CSV](forge60-hardware-release/led-board-5050/led-board-5050-pick-and-place.csv) | [PDF](forge60-hardware-release/led-board-5050/led-board-5050-schematic.pdf) | [PDF](forge60-hardware-release/led-board-5050/led-board-5050-pcb-preview.pdf) |
 
-## 🧩 Source Project
+## Manufacturing Notes
+
+- Mainboard v2: order as **1.0 mm** PCB.
+- 5050 LED board: order as **1.6 mm** PCB.
+- Use the Gerber zip, BOM, and pick-and-place files from the same board folder.
+- The BOM files are the source of truth for electronic components; verify substitutes before assembly.
+- If outsourcing SMT, provide the manufacturer with Gerber, BOM, and pick-and-place files together.
+
+## Source Project
 
 | Format | Download |
 | --- | --- |
 | EasyEDA Pro source | [forge60-easyeda-pro-source.epro2](forge60-hardware-release/source/forge60-easyeda-pro-source.epro2) |
 
-## 🧭 PCB and Schematic Preview
+The editable project is currently provided in EasyEDA Pro format. KiCad files are not included in this release.
+
+## PCB and Schematic Preview
 
 ### PCB Preview
 
@@ -148,7 +134,7 @@ Gerber files are for PCB fabrication. BOM files are for sourcing. Pick-and-place
 | --- | --- |
 | ![Mainboard v2 schematic](assets/schematics/mainboard-v2-schematic.png) | ![5050 LED board schematic](assets/schematics/led-board-5050-schematic.png) |
 
-## 🧾 BOM Overview
+## BOM Overview
 
 The full BOM is provided in the hardware download table. Major parts include:
 
@@ -165,10 +151,20 @@ The full BOM is provided in the hardware download table. Major parts include:
 - GH1.25 2P cables
 - 20 AWG and 16 AWG flexible silicone wires
 - M1.4 and M1.7 heat-set inserts
-- Matching hex screws and self-tapping screws
 - Reflective film, thermal tape, thermal grease, shock-absorbing foam, and high-temperature tape
 
-## 🧰 Required Tools
+## Build Flow
+
+1. Review the schematic PDFs and PCB previews.
+2. Order the mainboard and LED board using the Gerber files and thickness notes.
+3. Source components from the BOM.
+4. Use pick-and-place files for SMT assembly where applicable.
+5. Print or prepare the mechanical parts and cooling stack.
+6. Flash the mainboard firmware.
+7. Assemble wiring, LED board, fan, battery pack, and enclosure.
+8. Perform current-limited first power-on testing and monitor temperature.
+
+## Required Tools
 
 - 3D printer
 - Spot welder
@@ -179,7 +175,7 @@ The full BOM is provided in the hardware download table. Major parts include:
 - Glass cutter, if cutting the protective glass manually
 - H1.3 / H1.5 hex drivers
 
-## 💾 Firmware Flashing
+## Firmware Flashing
 
 Use PWLINK2 LITE and select the PY32F003xx6 series target in the programming software. Pay close attention to the V and G pads on the mainboard. Reversed programming probe wiring can damage the board.
 
@@ -191,7 +187,7 @@ Use PWLINK2 LITE and select the PY32F003xx6 series target in the programming sof
 | --- | --- | --- |
 | ![Programming probe wiring](assets/build/programming-probe-wiring.jpg) | ![Programming probe pads](assets/build/programming-test-pads.png) | ![Firmware program success](assets/build/firmware-program-success.png) |
 
-## 🔧 Assembly Notes
+## Assembly Notes
 
 1. Flash the mainboard firmware before final assembly.
 2. Use 16 AWG silicone wire for the mainboard input and XT30 male connector.
@@ -210,11 +206,19 @@ Use PWLINK2 LITE and select the PY32F003xx6 series target in the programming sof
 | --- | --- |
 | ![Mainboard and LED board wiring](assets/build/mainboard-led-board-wiring.jpg) | ![Battery pack installation](assets/build/battery-pack-installation.jpg) |
 
-## 🎛️ Operation
+## Operation
 
 ![Forge OS v1.2 instructions](assets/build/forge-os-v1.2-instructions.jpg)
 
-## ⚠️ Safety Notes
+## Community
+
+For build discussion, support, updates, and modification ideas:
+
+[![Join the Forge 60 Discord](https://img.shields.io/badge/Join%20Discord-Forge%2060%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/2pjCQccBc)
+
+Direct link: [https://discord.com/invite/2pjCQccBc](https://discord.com/invite/2pjCQccBc)
+
+## Safety and Disclaimer
 
 This is a high-power LED and lithium battery project. Build and test it carefully.
 
@@ -224,8 +228,9 @@ This is a high-power LED and lithium battery project. Build and test it carefull
 - Current-limit the first power-on test and monitor temperature.
 - Do not leave the battery pack or high-power LED unattended during early testing.
 - If shipping batteries internationally, use a logistics channel that supports lithium batteries.
+- You are responsible for validating the design, assembly, firmware, battery pack, and thermal behavior before use.
 
-## 🗂️ Repository Layout
+## Repository Layout
 
 ```text
 forge60-hardware-release/
@@ -249,6 +254,6 @@ forge60-hardware-release/
     forge60-easyeda-pro-source.epro2
 ```
 
-## 📜 License
+## License
 
 This hardware project is released under the CERN Open Hardware Licence Version 2 - Permissive (`CERN-OHL-P-2.0`). Commercial use is allowed under the terms of the license.
