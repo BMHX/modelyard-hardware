@@ -6,6 +6,7 @@
 [![Hardware: Open Source](https://img.shields.io/badge/Hardware-Open%20Source-brightgreen.svg)](#-hardware-downloads)
 [![Demo: YouTube](https://img.shields.io/badge/Demo-YouTube-red.svg)](https://www.youtube.com/watch?v=xSCZzmICGlw)
 [![Buy: ModelYard](https://img.shields.io/badge/Buy-ModelYard-black.svg)](https://modelyard.cc/products/forge-60)
+[![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2.svg)](https://discord.com/invite/2pjCQccBc)
 
 Forge 60 is a reproducible open-hardware flashlight project built around a constant 60 W / 10,000 lm output mode, a high-current driver board, a 5050 LED board, active cooling, and a USB-C charge/discharge power path. Builders can manufacture the PCBs, source parts from the BOM, assemble the kit, flash the firmware, and modify the design.
 
@@ -15,6 +16,7 @@ Forge 60 is a reproducible open-hardware flashlight project built around a const
 | --- | --- |
 | ▶️ Watch the demo | [YouTube: Forge 60 demo](https://www.youtube.com/watch?v=xSCZzmICGlw) |
 | 🛒 Buy the kit | [modelyard.cc/products/forge-60](https://modelyard.cc/products/forge-60) |
+| 💬 Join the community | [Discord invite](https://discord.com/invite/2pjCQccBc) |
 | 📦 Download release package | [GitHub Releases](https://github.com/BMHX/modelyard-hardware/releases) |
 | 🧩 Download hardware files | [Hardware Downloads](#-hardware-downloads) |
 | 🛠️ Edit source project | [EasyEDA Pro source](forge60-hardware-release/source/forge60-easyeda-pro-source.epro2) |
@@ -26,6 +28,7 @@ Forge 60 is a reproducible open-hardware flashlight project built around a const
 - [Highlights](#-highlights)
 - [Demo Video](#-demo-video)
 - [Buy the Kit](#-buy-the-kit)
+- [Community](#-community)
 - [Performance](#-performance)
 - [Specifications](#-specifications)
 - [Hardware Downloads](#-hardware-downloads)
@@ -62,6 +65,12 @@ Direct link: [https://www.youtube.com/watch?v=xSCZzmICGlw](https://www.youtube.c
 The project is fully open for builders who want to manufacture or modify it themselves. A ready-to-build kit is also available here:
 
 ### 👉 [Buy Forge 60 Kit on ModelYard](https://modelyard.cc/products/forge-60)
+
+## 💬 Community
+
+Join the Discord community for build discussion, support, updates, and modification ideas:
+
+### 👉 [Join the Forge 60 Discord](https://discord.com/invite/2pjCQccBc)
 
 ## ⏱️ Performance
 
