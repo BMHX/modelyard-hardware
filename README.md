@@ -8,7 +8,7 @@
   <a href="https://www.youtube.com/watch?v=xSCZzmICGlw"><img alt="Watch on YouTube" src="https://img.shields.io/badge/Watch-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a>
   <a href="https://modelyard.cc/products/forge-60"><img alt="Buy on ModelYard" src="https://img.shields.io/badge/Buy%20Kit-ModelYard-111111?style=for-the-badge"></a>
   <a href="https://discord.com/invite/2pjCQccBc"><img alt="Join Discord" src="https://img.shields.io/badge/Join-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"></a>
-  <a href="https://github.com/BMHX/modelyard-hardware/releases"><img alt="Download release" src="https://img.shields.io/badge/Download-Release-2ea44f?style=for-the-badge"></a>
+  <a href="https://github.com/BMHX/modelyard-hardware/releases"><img alt="Download release" src="https://img.shields.io/badge/Download-Release-2ea44f?style=for-the-badge&logo=github&logoColor=white"></a>
 </p>
 
 <p align="center">
@@ -32,6 +32,8 @@ Forge 60 is a reproducible open-hardware flashlight platform built around a cons
 | Recommended hardware files | Mainboard v2 + 5050 LED board |
 | Mainboard thickness | 1.0 mm |
 | LED board thickness | 1.6 mm |
+| Firmware | Forge 60 OS v1.2 HEX |
+| Mechanical model | Forge 60 v10 3MF |
 | Source format | EasyEDA Pro `.epro2` |
 | License | CERN-OHL-P-2.0 |
 
@@ -50,8 +52,10 @@ Forge 60 is a reproducible open-hardware flashlight platform built around a cons
 | <img src="assets/icons/youtube.svg" width="18" alt="YouTube"> Watch demo | [YouTube video](https://www.youtube.com/watch?v=xSCZzmICGlw) |
 | <img src="assets/icons/modelyard.svg" width="18" alt="ModelYard"> Buy kit | [ModelYard Forge 60 kit](https://modelyard.cc/products/forge-60) |
 | <img src="assets/icons/discord.svg" width="18" alt="Discord"> Join community | [Discord invite](https://discord.com/invite/2pjCQccBc) |
-| Download release | [GitHub Releases](https://github.com/BMHX/modelyard-hardware/releases) |
+| <img src="assets/icons/github.svg" width="18" alt="GitHub"> Download release | [GitHub Releases](https://github.com/BMHX/modelyard-hardware/releases) |
 | Download hardware files | [Hardware Downloads](#hardware-downloads) |
+| Download firmware | [Forge 60 OS v1.2 HEX](forge60-hardware-release/firmware/forge60-os-v1.2.hex) |
+| Download mechanical model | [Forge 60 v10 3MF](forge60-hardware-release/mechanical/forge60-v10.3mf) |
 | Edit source project | [EasyEDA Pro source](forge60-hardware-release/source/forge60-easyeda-pro-source.epro2) |
 
 ## Contents
@@ -61,6 +65,7 @@ Forge 60 is a reproducible open-hardware flashlight platform built around a cons
 - [Performance](#performance)
 - [Hardware Downloads](#hardware-downloads)
 - [Manufacturing Notes](#manufacturing-notes)
+- [Firmware and Mechanical Files](#firmware-and-mechanical-files)
 - [Source Project](#source-project)
 - [PCB and Schematic Preview](#pcb-and-schematic-preview)
 - [BOM Overview](#bom-overview)
@@ -111,6 +116,13 @@ Gerber files are for PCB fabrication. BOM files are for sourcing. Pick-and-place
 - Use the Gerber zip, BOM, and pick-and-place files from the same board folder.
 - The BOM files are the source of truth for electronic components; verify substitutes before assembly.
 - If outsourcing SMT, provide the manufacturer with Gerber, BOM, and pick-and-place files together.
+
+## Firmware and Mechanical Files
+
+| File | Link | Use |
+| --- | --- | --- |
+| Forge 60 OS v1.2 firmware | [forge60-os-v1.2.hex](forge60-hardware-release/firmware/forge60-os-v1.2.hex) | Flash the PY32F003xx6 mainboard MCU |
+| Forge 60 v10 mechanical model | [forge60-v10.3mf](forge60-hardware-release/mechanical/forge60-v10.3mf) | 3D-printable mechanical shell/model package |
 
 ## Source Project
 
@@ -234,6 +246,8 @@ This is a high-power LED and lithium battery project. Build and test it carefull
 
 ```text
 forge60-hardware-release/
+  firmware/
+    forge60-os-v1.2.hex
   mainboard-v2/
     mainboard-v2-gerber.zip
     mainboard-v2-bom.xlsx
@@ -250,6 +264,8 @@ forge60-hardware-release/
     led-board-5050-pick-and-place.csv
     led-board-5050-schematic.pdf
     led-board-5050-pcb-preview.pdf
+  mechanical/
+    forge60-v10.3mf
   source/
     forge60-easyeda-pro-source.epro2
 ```
