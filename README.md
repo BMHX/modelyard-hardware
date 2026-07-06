@@ -26,7 +26,7 @@ Forge 60 is a reproducible open-hardware flashlight platform built around a cons
 | Action | Link |
 | --- | --- |
 | <img src="assets/icons/youtube.svg" width="16" height="16" align="absmiddle" alt="YouTube"> Watch demo | [YouTube video](https://www.youtube.com/watch?v=xSCZzmICGlw) |
-| <img src="assets/icons/briefcase.svg" width="16" height="16" align="absmiddle" alt="Kit"> Buy kit | [ModelYard Forge 60 kit](https://modelyard.cc/products/forge-60) |
+| <img src="assets/icons/shopify.svg" width="16" height="16" align="absmiddle" alt="Shopify"> Buy kit | [ModelYard Forge 60 kit](https://modelyard.cc/products/forge-60) |
 | <img src="assets/icons/discord.svg" width="16" height="16" align="absmiddle" alt="Discord"> Join community | [Discord invite](https://discord.com/invite/2pjCQccBc) |
 | <img src="assets/icons/github.svg" width="16" height="16" align="absmiddle" alt="GitHub"> Download release | [GitHub Releases](https://github.com/BMHX/modelyard-hardware/releases) |
 | <img src="assets/icons/hardware.svg" width="16" height="16" align="absmiddle" alt="Hardware"> Download hardware files | [Hardware Downloads](#hardware-downloads) |
