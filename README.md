@@ -21,6 +21,19 @@
 
 Forge 60 is a reproducible open-hardware flashlight platform built around a constant 60 W / 10,000 lm output mode, a high-current driver board, a 5050 LED board, active cooling, and a USB-C charge/discharge power path. The repository includes fabrication files, assembly data, schematics, and editable EasyEDA Pro source files so builders can manufacture, inspect, modify, and assemble the project.
 
+## Quick Links
+
+| Action | Link |
+| --- | --- |
+| <img src="assets/icons/youtube.svg" width="16" height="16" align="absmiddle" alt="YouTube"> Watch demo | [YouTube video](https://www.youtube.com/watch?v=xSCZzmICGlw) |
+| <img src="assets/icons/briefcase.svg" width="16" height="16" align="absmiddle" alt="Kit"> Buy kit | [ModelYard Forge 60 kit](https://modelyard.cc/products/forge-60) |
+| <img src="assets/icons/discord.svg" width="16" height="16" align="absmiddle" alt="Discord"> Join community | [Discord invite](https://discord.com/invite/2pjCQccBc) |
+| <img src="assets/icons/github.svg" width="16" height="16" align="absmiddle" alt="GitHub"> Download release | [GitHub Releases](https://github.com/BMHX/modelyard-hardware/releases) |
+| <img src="assets/icons/hardware.svg" width="16" height="16" align="absmiddle" alt="Hardware"> Download hardware files | [Hardware Downloads](#hardware-downloads) |
+| <img src="assets/icons/firmware.svg" width="16" height="16" align="absmiddle" alt="Firmware"> Download firmware | [Forge 60 OS v1.2 HEX](forge60-hardware-release/firmware/forge60-os-v1.2.hex) |
+| <img src="assets/icons/cube.svg" width="16" height="16" align="absmiddle" alt="Mechanical model"> Download mechanical model | [Forge 60 v10 3MF](forge60-hardware-release/mechanical/forge60-v10.3mf) |
+| <img src="assets/icons/source.svg" width="16" height="16" align="absmiddle" alt="Source project"> Edit source project | [EasyEDA Pro source](forge60-hardware-release/source/forge60-easyeda-pro-source.epro2) |
+
 ## At a Glance
 
 | Item | Value |
@@ -44,19 +57,6 @@ Forge 60 is a reproducible open-hardware flashlight platform built around a cons
 - **KiCad is not included yet:** editable source is currently provided as an EasyEDA Pro project.
 - **High-power safety:** this project uses high-current lithium cells and a high-power LED. Validate wiring, polarity, thermal path, and firmware before sustained operation.
 - **Battery shipping:** if you ship kits with cells, use a logistics channel that supports lithium batteries.
-
-## Quick Links
-
-| Action | Link |
-| --- | --- |
-| <img src="assets/icons/youtube.svg" width="18" alt="YouTube"> Watch demo | [YouTube video](https://www.youtube.com/watch?v=xSCZzmICGlw) |
-| <img src="assets/icons/modelyard.svg" width="18" alt="ModelYard"> Buy kit | [ModelYard Forge 60 kit](https://modelyard.cc/products/forge-60) |
-| <img src="assets/icons/discord.svg" width="18" alt="Discord"> Join community | [Discord invite](https://discord.com/invite/2pjCQccBc) |
-| <img src="assets/icons/github.svg" width="18" alt="GitHub"> Download release | [GitHub Releases](https://github.com/BMHX/modelyard-hardware/releases) |
-| Download hardware files | [Hardware Downloads](#hardware-downloads) |
-| Download firmware | [Forge 60 OS v1.2 HEX](forge60-hardware-release/firmware/forge60-os-v1.2.hex) |
-| Download mechanical model | [Forge 60 v10 3MF](forge60-hardware-release/mechanical/forge60-v10.3mf) |
-| Edit source project | [EasyEDA Pro source](forge60-hardware-release/source/forge60-easyeda-pro-source.epro2) |
 
 ## Contents
 
