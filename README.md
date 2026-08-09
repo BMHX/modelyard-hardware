@@ -32,6 +32,7 @@ Forge 60 is a reproducible open-hardware flashlight platform built around a cons
 | <img src="assets/icons/hardware.svg" width="16" height="16" align="absmiddle" alt="Hardware"> Download hardware files | [Hardware Downloads](#hardware-downloads) |
 | <img src="assets/icons/firmware.svg" width="16" height="16" align="absmiddle" alt="Firmware"> Download firmware | [Forge 60 OS v1.2 HEX](forge60-hardware-release/firmware/forge60-os-v1.2.hex) |
 | <img src="assets/icons/cube.svg" width="16" height="16" align="absmiddle" alt="Mechanical model"> Download mechanical model | [Forge 60 v10 3MF](forge60-hardware-release/mechanical/forge60-v10.3mf) |
+| <img src="assets/icons/cube.svg" width="16" height="16" align="absmiddle" alt="Accessory package"> Download accessory package | [Forge Complete Accessory Package](forge-complete-accessory-package) |
 | <img src="assets/icons/source.svg" width="16" height="16" align="absmiddle" alt="Source project"> Edit source project | [EasyEDA Pro source](forge60-hardware-release/source/forge60-easyeda-pro-source.epro2) |
 
 ## At a Glance
@@ -66,6 +67,7 @@ Forge 60 is a reproducible open-hardware flashlight platform built around a cons
 - [Hardware Downloads](#hardware-downloads)
 - [Manufacturing Notes](#manufacturing-notes)
 - [Firmware and Mechanical Files](#firmware-and-mechanical-files)
+- [Accessory Package](#accessory-package)
 - [Source Project](#source-project)
 - [PCB and Schematic Preview](#pcb-and-schematic-preview)
 - [BOM Overview](#bom-overview)
@@ -123,6 +125,14 @@ Gerber files are for PCB fabrication. BOM files are for sourcing. Pick-and-place
 | --- | --- | --- |
 | Forge 60 OS v1.2 firmware | [forge60-os-v1.2.hex](forge60-hardware-release/firmware/forge60-os-v1.2.hex) | Flash the PY32F003xx6 mainboard MCU |
 | Forge 60 v10 mechanical model | [forge60-v10.3mf](forge60-hardware-release/mechanical/forge60-v10.3mf) | 3D-printable mechanical shell/model package |
+
+## Accessory Package
+
+Additional Forge-series accessory files, 3D models, firmware files, stencil files, and source model files are provided in:
+
+[forge-complete-accessory-package](forge-complete-accessory-package)
+
+This package includes resources for Forge 60 Mecha Edition, Forge 65, Forge 200, Forge 201, Forge 500, Forge OS firmware, and Forge 60/65 stencil files.
 
 ## Source Project
 
@@ -268,6 +278,15 @@ forge60-hardware-release/
     forge60-v10.3mf
   source/
     forge60-easyeda-pro-source.epro2
+
+forge-complete-accessory-package/
+  Forge60Mecha_Edition/
+  Forge65 3D_Files/
+  Forge60 65Stencil/
+  Forge200 3D_Models/
+  Forgeos Firmware/
+  Forge500/
+  Forge201 3D_Files/
 ```
 
 ## License
