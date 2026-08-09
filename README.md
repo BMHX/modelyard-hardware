@@ -32,7 +32,7 @@ Forge 60 is a reproducible open-hardware flashlight platform built around a cons
 | <img src="assets/icons/hardware.svg" width="16" height="16" align="absmiddle" alt="Hardware"> Download hardware files | [Hardware Downloads](#hardware-downloads) |
 | <img src="assets/icons/firmware.svg" width="16" height="16" align="absmiddle" alt="Firmware"> Download firmware | [Forge 60 OS v1.2 HEX](forge60-hardware-release/firmware/forge60-os-v1.2.hex) |
 | <img src="assets/icons/cube.svg" width="16" height="16" align="absmiddle" alt="Mechanical model"> Download mechanical model | [Forge 60 v10 3MF](forge60-hardware-release/mechanical/forge60-v10.3mf) |
-| <img src="assets/icons/cube.svg" width="16" height="16" align="absmiddle" alt="Accessory package"> Download accessory package | [Forge Complete Accessory Package](forge-complete-accessory-package) |
+| <img src="assets/icons/cube.svg" width="16" height="16" align="absmiddle" alt="Accessory package"> Download accessory files | [Accessory Package](#accessory-package) |
 | <img src="assets/icons/source.svg" width="16" height="16" align="absmiddle" alt="Source project"> Edit source project | [EasyEDA Pro source](forge60-hardware-release/source/forge60-easyeda-pro-source.epro2) |
 
 ## At a Glance
@@ -128,11 +128,17 @@ Gerber files are for PCB fabrication. BOM files are for sourcing. Pick-and-place
 
 ## Accessory Package
 
-Additional Forge-series accessory files, 3D models, firmware files, stencil files, and source model files are provided in:
+Additional Forge-series accessory files, 3D models, firmware files, stencil files, and source model files are provided at the repository root.
 
-[forge-complete-accessory-package](forge-complete-accessory-package)
-
-This package includes resources for Forge 60 Mecha Edition, Forge 65, Forge 200, Forge 201, Forge 500, Forge OS firmware, and Forge 60/65 stencil files.
+| Folder | Contents |
+| --- | --- |
+| [Forge60Mecha_Edition](Forge60Mecha_Edition) | Forge 60 Mecha Edition Fusion 360 source, STL package, 3MF package, extended handle STL, and add-on 3MF |
+| [Forge65 3D_Files](Forge65%203D_Files) | Forge 65 3MF files, STL package, extended handle 3MF, and 8-cell package |
+| [Forge60 65Stencil](Forge60%2065Stencil) | Forge 60 v2 mainboard stencil DXF |
+| [Forge200 3D_Models](Forge200%203D_Models) | Forge 200 Fusion 360 source files, STL files, and 3MF files |
+| [Forgeos Firmware](Forgeos%20Firmware) | Forge OS firmware HEX files for Forge 60, Forge 65/66, and Forge 201, plus user guide images |
+| [Forge500](Forge500) | Forge 500 UF2 firmware files, print files, Fusion 360 source, add-ons, and offline replication document |
+| [Forge201 3D_Files](Forge201%203D_Files) | Forge 201 STL package, Fusion 360 source package, 3MF file, and reflective film mold STL |
 
 ## Source Project
 
@@ -279,14 +285,13 @@ forge60-hardware-release/
   source/
     forge60-easyeda-pro-source.epro2
 
-forge-complete-accessory-package/
-  Forge60Mecha_Edition/
-  Forge65 3D_Files/
-  Forge60 65Stencil/
-  Forge200 3D_Models/
-  Forgeos Firmware/
-  Forge500/
-  Forge201 3D_Files/
+Forge60Mecha_Edition/
+Forge65 3D_Files/
+Forge60 65Stencil/
+Forge200 3D_Models/
+Forgeos Firmware/
+Forge500/
+Forge201 3D_Files/
 ```
 
 ## License
