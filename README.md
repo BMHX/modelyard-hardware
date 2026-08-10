@@ -17,7 +17,9 @@
   <a href="#source-project"><img alt="EasyEDA Pro source" src="https://img.shields.io/badge/Source-EasyEDA%20Pro-orange.svg"></a>
 </p>
 
-![Forge 60 product photo](assets/images/forge60-product-1.jpg)
+<p align="center">
+  <img src="assets/images/forge60-product-1.jpg" alt="Forge 60 product photo">
+</p>
 
 Forge 60 is a reproducible open-hardware flashlight platform built around a constant 60 W / 10,000 lm output mode, a high-current driver board, a 5050 LED board, active cooling, and a USB-C charge/discharge power path. The repository includes fabrication files, assembly data, schematics, and editable EasyEDA Pro source files so builders can manufacture, inspect, modify, and assemble the project.
 
