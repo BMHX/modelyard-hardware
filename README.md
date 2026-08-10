@@ -57,6 +57,7 @@ Forge 60 is a reproducible open-hardware flashlight platform built around a cons
 
 - **Recommended board:** use `mainboard-v2`. Older mainboard revisions are not recommended for new builds.
 - **PCB thickness matters:** order the mainboard at **1.0 mm** and the LED board at **1.6 mm**.
+- **LED part:** the 5050 LED board is intended for 6 V 5050 emitters. Current kits use Seoul Semiconductor `STW0L8PA`, 5700 K, around CRI 70. The LED BOM does not use an LCSC part number.
 - **KiCad is not included yet:** editable source is currently provided as an EasyEDA Pro project.
 - **High-power safety:** this project uses high-current lithium cells and a high-power LED. Validate wiring, polarity, thermal path, and firmware before sustained operation.
 - **Battery shipping:** if you ship kits with cells, use a logistics channel that supports lithium batteries.
@@ -171,7 +172,7 @@ The full BOM is provided in the hardware download table. Major parts include:
 - IP2369 charge/discharge controller
 - FP7209 LED driver controller
 - PY32F003 series MCU
-- 5050 6 V LEDs, 5000 K / 5700 K recommended
+- Seoul Semiconductor STW0L8PA 6 V 5050 LEDs, 5700 K, around CRI 70
 - 2S protection board, 13 A class recommended
 - High-drain 21700 cells, such as JP40 / 40PL / 45D class cells
 - 30 x 30 x 50 mm heatsink

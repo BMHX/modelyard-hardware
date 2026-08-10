@@ -80,9 +80,12 @@ This release packages the files needed to reproduce the electronics, flash the c
 | Mainboard layer count | 4 layers |
 | LED board thickness | 1.6 mm |
 | LED board package | 5050 LED layout |
+| LED part | Seoul Semiconductor `STW0L8PA`, 6 V 5050, 5700 K, around CRI 70 |
 | Assembly files | Use the matching BOM and pick-and-place files from the same board folder |
 
 Before ordering, review the PCB preview PDF and confirm board stack-up, substrate, copper weight, surface finish, and assembly constraints with the PCB manufacturer.
+
+The LED board BOM intentionally leaves the LED supplier part number blank because the current kit LED is not an LCSC part. Do not substitute the LED row with an 0805 indicator LED.
 
 ## Firmware
 
