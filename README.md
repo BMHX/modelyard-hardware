@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://www.youtube.com/watch?v=xSCZzmICGlw"><img alt="Watch on YouTube" src="https://img.shields.io/badge/Watch-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a>
   <a href="https://modelyard.cc/products/forge-60"><img alt="Buy on ModelYard" src="https://img.shields.io/badge/Buy%20Kit-ModelYard-111111?style=for-the-badge"></a>
-  <a href="https://discord.com/invite/2pjCQccBc"><img alt="Join Discord" src="https://img.shields.io/badge/Join-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"></a>
+  <a href="https://discord.gg/PhqGwtabfa"><img alt="Join Discord" src="https://img.shields.io/badge/Join-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"></a>
   <a href="https://github.com/BMHX/modelyard-hardware/releases"><img alt="Download release" src="https://img.shields.io/badge/Download-Release-2ea44f?style=for-the-badge&logo=github&logoColor=white"></a>
 </p>
 
@@ -29,7 +29,7 @@ Forge 60 is a reproducible open-hardware flashlight platform built around a cons
 | --- | --- |
 | <img src="assets/icons/youtube.svg" width="16" height="16" align="absmiddle" alt="YouTube"> Watch demo | [YouTube video](https://www.youtube.com/watch?v=xSCZzmICGlw) |
 | <img src="assets/icons/shopify.svg" width="16" height="16" align="absmiddle" alt="Shopify"> Buy kit | [ModelYard Forge 60 kit](https://modelyard.cc/products/forge-60) |
-| <img src="assets/icons/discord.svg" width="16" height="16" align="absmiddle" alt="Discord"> Join community | [Discord invite](https://discord.com/invite/2pjCQccBc) |
+| <img src="assets/icons/discord.svg" width="16" height="16" align="absmiddle" alt="Discord"> Join community | [Discord invite](https://discord.gg/PhqGwtabfa) |
 | <img src="assets/icons/github.svg" width="16" height="16" align="absmiddle" alt="GitHub"> Download release | [GitHub Releases](https://github.com/BMHX/modelyard-hardware/releases) |
 | <img src="assets/icons/hardware.svg" width="16" height="16" align="absmiddle" alt="Hardware"> Download hardware files | [Hardware Downloads](#hardware-downloads) |
 | <img src="assets/icons/firmware.svg" width="16" height="16" align="absmiddle" alt="Firmware"> Download firmware | [Forge 60 OS v1.2 HEX](forge60-hardware-release/firmware/forge60-os-v1.2.hex) |
@@ -245,9 +245,9 @@ Use PWLINK2 LITE and select the PY32F003xx6 series target in the programming sof
 
 For build discussion, support, updates, and modification ideas:
 
-[![Join the Forge 60 Discord](https://img.shields.io/badge/Join%20Discord-Forge%2060%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/2pjCQccBc)
+[![Join the Forge 60 Discord](https://img.shields.io/badge/Join%20Discord-Forge%2060%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/PhqGwtabfa)
 
-Direct link: [https://discord.com/invite/2pjCQccBc](https://discord.com/invite/2pjCQccBc)
+Direct link: [https://discord.gg/PhqGwtabfa](https://discord.gg/PhqGwtabfa)
 
 ## Safety and Disclaimer
 
