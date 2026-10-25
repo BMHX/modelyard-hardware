@@ -13,6 +13,7 @@
 - `mainboard-v2/mainboard-v2-pick-and-place.csv`
 - `mainboard-v2/mainboard-v2-schematic.pdf`
 - `mainboard-v2/mainboard-v2-pcb-preview.pdf`
+- `stencil/forge60-mainboard-v2-stencil.dxf`
 
 ## 5050 LED Board
 
@@ -27,6 +28,10 @@
 ## Mechanical Model
 
 - `mechanical/forge60-v10.3mf`
+- `mechanical/mecha-edition/forge60-mecha-edition.f3d`
+- `mechanical/mecha-edition/forge60-mecha-edition-stl.zip`
+- `mechanical/mecha-edition/forge60-mecha-edition-3mf-petg-gf-tianrui.zip`
+- `mechanical/mecha-edition/forge60-mecha-edition-handle-extended-70mm.stl`
 
 ## Source
 
