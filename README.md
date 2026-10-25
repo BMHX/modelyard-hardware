@@ -5,10 +5,10 @@
 </p>
 
 <p align="center">
-  <a href="LICENSE"><img alt="License: CC BY-NC-SA 4.0" src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg"></a>
+  <a href="LICENSE"><img alt="License: CC BY-NC-SA 4.0" src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey?logo=creativecommons&logoColor=white"></a>
   <a href="https://discord.com/users/1088471587927375922"><img alt="Contact on Discord" src="https://img.shields.io/badge/Discord-Contact-5865F2?logo=discord&logoColor=white"></a>
   <a href="https://github.com/BMHX/modelyard-hardware/releases"><img alt="Releases" src="https://img.shields.io/badge/Download-Releases-2ea44f?logo=github&logoColor=white"></a>
-  <a href="https://modelyard.cc"><img alt="ModelYard store" src="https://img.shields.io/badge/Store-modelyard.cc-111111"></a>
+  <a href="https://modelyard.cc"><img alt="ModelYard store" src="https://img.shields.io/badge/Store-modelyard.cc-111111?logo=shopify&logoColor=white"></a>
 </p>
 
 Each light has its own folder with a README that lists every file and what it is for. **Forge 60 is the complete package**: PCB fabrication and assembly files, editable source, firmware, print files, and a step-by-step build guide. Start there if you want to build one from scratch.

@@ -6,15 +6,15 @@
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=xSCZzmICGlw"><img alt="Watch on YouTube" src="https://img.shields.io/badge/Watch-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a>
-  <a href="https://modelyard.cc/products/forge-60"><img alt="Buy on ModelYard" src="https://img.shields.io/badge/Buy-ModelYard-111111?style=for-the-badge"></a>
+  <a href="https://modelyard.cc/products/forge-60"><img alt="Buy on ModelYard" src="https://img.shields.io/badge/Buy-ModelYard-111111?style=for-the-badge&logo=shopify&logoColor=white"></a>
   <a href="https://discord.com/users/1088471587927375922"><img alt="Contact on Discord" src="https://img.shields.io/badge/Contact-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"></a>
   <a href="https://github.com/BMHX/modelyard-hardware/releases"><img alt="Download release" src="https://img.shields.io/badge/Download-Release-2ea44f?style=for-the-badge&logo=github&logoColor=white"></a>
 </p>
 
 <p align="center">
-  <a href="LICENSE"><img alt="License: CC BY-NC-SA 4.0" src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg"></a>
+  <a href="LICENSE"><img alt="License: CC BY-NC-SA 4.0" src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey?logo=creativecommons&logoColor=white"></a>
   <a href="#hardware-downloads"><img alt="Hardware files" src="https://img.shields.io/badge/Hardware%20Files-Gerber%20%7C%20BOM%20%7C%20CPL%20%7C%20Schematic-lightgrey.svg"></a>
-  <a href="#source-project"><img alt="EasyEDA Pro source" src="https://img.shields.io/badge/Source-EasyEDA%20Pro-orange.svg"></a>
+  <a href="#source-project"><img alt="EasyEDA Pro source" src="https://img.shields.io/badge/Source-EasyEDA%20Pro-orange?logo=easyeda&logoColor=white"></a>
 </p>
 
 <p align="center">
@@ -96,7 +96,7 @@ Watch the demo: [https://www.youtube.com/watch?v=xSCZzmICGlw](https://www.youtub
 
 This folder contains the hardware files for builders who want to manufacture or modify the project themselves. If you would rather not build one, a fully assembled Forge 60 is available separately:
 
-[![Buy Forge 60 on ModelYard](https://img.shields.io/badge/Buy%20Forge%2060-ModelYard-111111?style=for-the-badge)](https://modelyard.cc/products/forge-60)
+[![Buy Forge 60 on ModelYard](https://img.shields.io/badge/Buy%20Forge%2060-ModelYard-111111?style=for-the-badge&logo=shopify&logoColor=white)](https://modelyard.cc/products/forge-60)
 
 Direct link: [https://modelyard.cc/products/forge-60](https://modelyard.cc/products/forge-60)
 
