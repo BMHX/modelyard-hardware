@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://www.youtube.com/watch?v=xSCZzmICGlw"><img alt="Watch on YouTube" src="https://img.shields.io/badge/Watch-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a>
   <a href="https://modelyard.cc/products/forge-60"><img alt="Buy on ModelYard" src="https://img.shields.io/badge/Buy-ModelYard-111111?style=for-the-badge"></a>
-  <a href="https://discord.gg/PhqGwtabfa"><img alt="Join Discord" src="https://img.shields.io/badge/Join-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"></a>
+  <a href="https://discord.com/users/1088471587927375922"><img alt="Contact on Discord" src="https://img.shields.io/badge/Contact-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"></a>
   <a href="https://github.com/BMHX/modelyard-hardware/releases"><img alt="Download release" src="https://img.shields.io/badge/Download-Release-2ea44f?style=for-the-badge&logo=github&logoColor=white"></a>
 </p>
 
@@ -31,7 +31,7 @@ Forge 60 is a reproducible flashlight platform built around a constant 60 W / 10
 | --- | --- |
 | <img src="../assets/icons/youtube.svg" width="16" height="16" align="absmiddle" alt="YouTube"> Watch demo | [YouTube video](https://www.youtube.com/watch?v=xSCZzmICGlw) |
 | <img src="../assets/icons/shopify.svg" width="16" height="16" align="absmiddle" alt="Shopify"> Buy assembled | [ModelYard Forge 60](https://modelyard.cc/products/forge-60) |
-| <img src="../assets/icons/discord.svg" width="16" height="16" align="absmiddle" alt="Discord"> Join community | [Discord invite](https://discord.gg/PhqGwtabfa) |
+| <img src="../assets/icons/discord.svg" width="16" height="16" align="absmiddle" alt="Discord"> Contact me | [Discord](https://discord.com/users/1088471587927375922) |
 | <img src="../assets/icons/github.svg" width="16" height="16" align="absmiddle" alt="GitHub"> Download release | [GitHub Releases](https://github.com/BMHX/modelyard-hardware/releases) |
 | <img src="../assets/icons/hardware.svg" width="16" height="16" align="absmiddle" alt="Hardware"> Download hardware files | [Hardware Downloads](#hardware-downloads) |
 | <img src="../assets/icons/firmware.svg" width="16" height="16" align="absmiddle" alt="Firmware"> Download firmware | [Forge 60 OS v1.2 HEX](firmware/forge60-os-v1.2.hex) |
@@ -81,7 +81,7 @@ Forge 60 is a reproducible flashlight platform built around a constant 60 W / 10
 - [Firmware Flashing](#firmware-flashing)
 - [Assembly Notes](#assembly-notes)
 - [Operation](#operation)
-- [Community](#community)
+- [Contact](#contact)
 - [Safety and Disclaimer](#safety-and-disclaimer)
 - [Folder Layout](#folder-layout)
 - [License](#license)
@@ -249,13 +249,13 @@ Forge 60 runs Forge OS. The full button reference is in [Forge OS](../forge-os/R
 
 ![Forge OS v1.2 instructions](assets/build/forge-os-v1.2-instructions.jpg)
 
-## Community
+## Contact
 
-For build discussion, support, updates, and modification ideas:
+For build questions, support, and modification ideas, message me directly:
 
-[![Join the Forge 60 Discord](https://img.shields.io/badge/Join%20Discord-Forge%2060%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/PhqGwtabfa)
+[![Contact me on Discord](https://img.shields.io/badge/Contact%20me-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/1088471587927375922)
 
-Direct link: [https://discord.gg/PhqGwtabfa](https://discord.gg/PhqGwtabfa)
+Direct link: [https://discord.com/users/1088471587927375922](https://discord.com/users/1088471587927375922)
 
 ## Safety and Disclaimer
 
