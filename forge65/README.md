@@ -6,7 +6,7 @@ Compact 65 W / about 7,000 lm flashlights with active cooling, 45 W USB-C charge
 
 | Forge 65 | Forge 66 |
 | --- | --- |
-| <img src="../assets/products/forge65.png" width="280" alt="Forge 65"> | <img src="../assets/products/forge66.png" width="280" alt="Forge 66"> |
+| <img src="../assets/products/forge65.webp" width="280" alt="Forge 65"> | <img src="../assets/products/forge66.webp" width="280" alt="Forge 66"> |
 
 ## At a Glance
 

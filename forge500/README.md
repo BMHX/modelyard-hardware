@@ -5,7 +5,7 @@
 [← All ModelYard hardware projects](../README.md)
 
 <p align="center">
-  <img src="../assets/products/forge500.png" width="360" alt="Forge 500">
+  <img src="../assets/products/forge500.webp" width="360" alt="Forge 500">
 </p>
 
 ## Original Design

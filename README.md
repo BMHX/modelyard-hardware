@@ -17,10 +17,10 @@ Each light has its own folder with a README that lists every file and what it is
 
 | | Project | Specs | In this repo |
 | --- | --- | --- | --- |
-| <img src="assets/products/forge60.png" width="160" alt="Forge 60"> | **[Forge 60](forge60/README.md)**<br>Standard and Mecha Edition shells | 60 W / about 10,000 lm<br>2S 21700, 45 W USB-C<br>Fan-cooled | **Full build package:** Gerber, BOM, pick-and-place, schematics, EasyEDA Pro source, stencil, firmware, 3MF / STL / Fusion 360, build guide |
-| <img src="assets/products/forge500.png" width="160" alt="Forge 500"> | **[Forge 500](forge500/README.md)** | 500 W / about 45,000 lm<br>18 V slide-on battery packs<br>Dual-fan, tripod mount | Firmware (RP2040), 3MF / STL / Fusion 360, battery adapters. PCB files on OSHWHub (linked) |
-| <img src="assets/products/forge65.png" width="160" alt="Forge 65"> | **[Forge 65 / 66](forge65/README.md)** | 65 W / about 7,000 lm<br>2S 21700, 45 W USB-C<br>Forge 66: long-throw lens | Firmware, 3MF / STL (standard, extended handle, 8-cell) |
-| <img src="assets/products/forge201.png" width="160" alt="Forge 201"> | **[Forge 201](forge201/README.md)** | 200 W / about 30,000 lm<br>4S 21700<br>Fan-cooled | Firmware, 3MF / STL / Fusion 360, reflective-film mold |
+| <img src="assets/products/forge60.webp" width="160" alt="Forge 60"> | **[Forge 60](forge60/README.md)**<br>Standard and Mecha Edition shells | 60 W / about 10,000 lm<br>2S 21700, 45 W USB-C<br>Fan-cooled | **Full build package:** Gerber, BOM, pick-and-place, schematics, EasyEDA Pro source, stencil, firmware, 3MF / STL / Fusion 360, build guide |
+| <img src="assets/products/forge500.webp" width="160" alt="Forge 500"> | **[Forge 500](forge500/README.md)** | 500 W / about 45,000 lm<br>18 V slide-on battery packs<br>Dual-fan, tripod mount | Firmware (RP2040), 3MF / STL / Fusion 360, battery adapters. PCB files on OSHWHub (linked) |
+| <img src="assets/products/forge65.webp" width="160" alt="Forge 65"> | **[Forge 65 / 66](forge65/README.md)** | 65 W / about 7,000 lm<br>2S 21700, 45 W USB-C<br>Forge 66: long-throw lens | Firmware, 3MF / STL (standard, extended handle, 8-cell) |
+| <img src="assets/products/forge201.webp" width="160" alt="Forge 201"> | **[Forge 201](forge201/README.md)** | 200 W / about 30,000 lm<br>4S 21700<br>Fan-cooled | Firmware, 3MF / STL / Fusion 360, reflective-film mold |
 | | **[Forge 200](forge200/README.md)**<br>Not sold assembled | | Fusion 360 / STL / 3MF, including a photography-light handle |
 
 ### What Each Folder Contains

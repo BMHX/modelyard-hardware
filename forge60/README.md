@@ -218,11 +218,11 @@ Use PWLINK2 LITE and select the PY32F003xx6 series target in the programming sof
 
 | Select MCU | Add firmware | Apply firmware |
 | --- | --- | --- |
-| ![Select chip](assets/build/firmware-chip-select.png) | ![Add firmware](assets/build/firmware-add-file.png) | ![Apply firmware](assets/build/firmware-apply.png) |
+| ![Select chip](assets/build/firmware-chip-select.webp) | ![Add firmware](assets/build/firmware-add-file.webp) | ![Apply firmware](assets/build/firmware-apply.webp) |
 
 | Probe wiring | Mainboard pads | Program complete |
 | --- | --- | --- |
-| ![Programming probe wiring](assets/build/programming-probe-wiring.jpg) | ![Programming probe pads](assets/build/programming-test-pads.png) | ![Firmware program success](assets/build/firmware-program-success.png) |
+| ![Programming probe wiring](assets/build/programming-probe-wiring.jpg) | ![Programming probe pads](assets/build/programming-test-pads.webp) | ![Firmware program success](assets/build/firmware-program-success.webp) |
 
 ## Assembly Notes
 

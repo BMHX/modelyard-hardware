@@ -5,7 +5,7 @@ Actively cooled 200 W / about 30,000 lm flashlight that holds full output withou
 [← All ModelYard hardware projects](../README.md)
 
 <p align="center">
-  <img src="../assets/products/forge201.png" width="320" alt="Forge 201 reflector and LED">
+  <img src="../assets/products/forge201.webp" width="320" alt="Forge 201 reflector and LED">
 </p>
 
 ## At a Glance
